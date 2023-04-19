@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>myscreen4</class>
+ <widget class="QWidget" name="myscreen4">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>10</y>
+     <width>591</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:36pt; font-weight:600;&quot;&gt;发动机与飞机监控曲线界面&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QCustomPlot" name="engineplot1" native="true">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>90</y>
+     <width>611</width>
+     <height>301</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCustomPlot" name="engineplot2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>90</y>
+     <width>611</width>
+     <height>301</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCustomPlot" name="engineplot3" native="true">
+   <property name="geometry">
+    <rect>
+     <x>1270</x>
+     <y>90</y>
+     <width>611</width>
+     <height>301</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCustomPlot" name="engineplot4" native="true">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>420</y>
+     <width>611</width>
+     <height>301</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCustomPlot" name="engineplot5" native="true">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>420</y>
+     <width>611</width>
+     <height>301</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCustomPlot" name="engineplot6" native="true">
+   <property name="geometry">
+    <rect>
+     <x>1270</x>
+     <y>420</y>
+     <width>611</width>
+     <height>301</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCustomPlot" name="airplot1" native="true">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>730</y>
+     <width>611</width>
+     <height>301</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCustomPlot" name="airplot1_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>730</y>
+     <width>611</width>
+     <height>301</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCustomPlot" name="airplot1_3" native="true">
+   <property name="geometry">
+    <rect>
+     <x>1270</x>
+     <y>730</y>
+     <width>611</width>
+     <height>301</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header>qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

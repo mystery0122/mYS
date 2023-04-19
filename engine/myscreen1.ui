@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>myscreen1</class>
+ <widget class="QWidget" name="myscreen1">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QCustomPlot" name="fp1" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>130</y>
+     <width>611</width>
+     <height>401</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCustomPlot" name="fp2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>130</y>
+     <width>611</width>
+     <height>401</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCustomPlot" name="fp3" native="true">
+   <property name="geometry">
+    <rect>
+     <x>1280</x>
+     <y>130</y>
+     <width>611</width>
+     <height>401</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCustomPlot" name="fp4" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>560</y>
+     <width>611</width>
+     <height>401</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCustomPlot" name="fp5" native="true">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>560</y>
+     <width>611</width>
+     <height>401</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCustomPlot" name="fp6" native="true">
+   <property name="geometry">
+    <rect>
+     <x>1280</x>
+     <y>560</y>
+     <width>611</width>
+     <height>401</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>10</y>
+     <width>551</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:36pt; font-weight:600;&quot;&gt;燃油系统监控曲线界面&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header>qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
